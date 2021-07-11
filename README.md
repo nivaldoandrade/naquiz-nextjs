@@ -1,34 +1,48 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">
+	NaQuiz
+</h1>
 
-## Getting Started
 
-First, run the development server:
+<p align="center">
+	<img src="./assets/capa.png" alt="Capa pergunta aí"/>
+</p>
 
-```bash
-npm run dev
-# or
-yarn dev
+
+O NaQuiz é uma aplicação de quiz, onde foi utilizado a API do [opentdb](https://opentdb.com/) para a busca das perguntas aleatoriamente.
+
+ - **Início**: Usuário escolhe a quantidade de pergunta que deseja responder. Se caso já realizou um quiz, será exibido o resultado do último quiz;
+ - **Confirmação**: Essa tela mostra quantas perguntas que o usuário escolhe e se ele quer prosseguir;   
+ - **Questões**: Onde de fato será buscado as questões a API e exibido para o usuário;   
+ - **Resultado**: Quantidade que o usuário acertou com a quantidade total de questṍes, gráfico com as estatitica de acertos/erros e uma tabela com a questão, resposta escolhida e a resposta certa.
+
+ <h3 align="center">
+ <a href="https://naquiz-nextjs.vercel.app/" target="_blank">DEMOSTRAÇÃO DO NAQUIZ</a>
+</h3>
+
+## **Configurações Iniciais**
+
+```
+  # clonar o repositório
+  git clone https://github.com/nivaldoandrade/naquiz-nextjs
+
+  # Instalar as dependências dentro da pasta clonada
+  yarn
+
+  # Iniciar a aplicação
+  yarn dev
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tecnologias
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+- ReactJS;
+- Next.js;
+- Material-ui;
+- Typescript;
+- Apexcharts;
+- Formik;
+- Yup;
+- Axios;
+- Nookies;
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### **Um pequeno aprendiz nesse grande mundo da programação.** 😃🗺
